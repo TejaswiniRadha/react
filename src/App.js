@@ -6,7 +6,7 @@ import React from "react";
 //import Pics from "./table/Pics";
 //import Employeelist from "./table/Employeelist";
 import Navbar from "./Stateex/Navbar";
-import Wish from "./Stateex/Wish";
+import Product from "./Stateex/Product";
 
 function App()
 {
@@ -14,7 +14,7 @@ function App()
 
    <div>
     <Navbar />
-    <Wish />
+    <Product />
         </div>
 );
 

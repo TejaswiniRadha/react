@@ -1,31 +1,28 @@
 import React from "react";
 class Employeelist extends React.Component{
-    
-
+  
     render()
     {
         return(
             <div>
-                <pre>{JSON.stringify(this.props)}</pre>
-                <h1>{this.employee}</h1>
-                <h2>{this.image}</h2>
-                <div className="container mt-4">
+                <pre>{JSON.stringify()}</pre>
+                               <div className="container mt-2">
                     <div className="row">
-                        <div class="col-md-8">
+                        <div class="col-md-2">
                         <table className="table table-dark">
                     <thead>
                         <tr>
-                            <th>id</th>
-                            <th>first_name</th>
-                            <th>last_name</th>
-                            <th>email</th>
-                            <th>gender</th>
+                            <th>Id</th>
+                            <th>First_Name</th>
+                            <th>Last_Name</th>
+                            <th>Email</th>
+                            <th>Gender</th>
                             
                         </tr>
                     </thead>
                     <tbody>
                         {
-                            this.props.emp.map((employee)=>{
+                            this.props.emp1.map((employee)=>{
                                 return(
                                     <tr>
                                         <td>{employee.id}</td>

@@ -5,8 +5,10 @@ import React from "react";
 //import Navbar from "./component/Nav/Navbar";
 //import Pics from "./table/Pics";
 //import Employeelist from "./table/Employeelist";
-import Navbar from "./Stateex/Navbar";
-import Productt from "./Stateex/Productt";
+import Navbar from "./EventBinding/Navbar";
+//import Productt from "./Stateex/Productt";
+import Employee from "./EventBinding/Employee";
+//import Hello from "./EventBinding/Hello";
 
 function App()
 {
@@ -14,7 +16,8 @@ function App()
 
    <div>
     <Navbar />
-    <Productt />
+    <Employee />
+    
         </div>
 );
 
